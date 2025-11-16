@@ -1,0 +1,121 @@
+$primary: #14213d;
+$accent: #e9d8a6;
+$line: #e76f51;
+
+.timeline {
+  padding: 100px 20px;
+  background: var(--color-bg-primary);
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .timeline-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 80px;
+  color: var(--color-text-secondary);
+  }
+
+  /* The vertical line */
+  .timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 160px;
+    transform: translateX(-50%);
+    width: 4px;
+    height: calc(100% - 200px);
+    background: var(--color-accent-main);
+  }
+
+  .timeline-items {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .timeline-item {
+   background: var(--color-bg-secondary);
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    width: 45%;
+    position: relative;
+    
+    /* BỔ SUNG: Tối ưu hóa hiệu suất */
+    will-change: transform; 
+
+    /* BỔ SUNG: Transition mượt mà hơn */
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+                box-shadow 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+
+    /* BỔ SUNG: Hiệu ứng nổi lên khi hover */
+    &:hover {
+      transform: translateY(-10px); /* Nổi lên 8px */
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Đổ bóng mạnh hơn */
+    }
+    h3 {
+      font-size: 22px;
+     color: var(--color-text-primary);
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+     color: var(--color-text-secondary);
+    }
+
+    .dot {
+      width: 20px;
+      height: 20px;
+      background: $line;
+      border-radius: 50%;
+      position: absolute;
+      top: 20px;
+    }
+  }
+
+  /* Left item */
+  .timeline-item:nth-child(odd) {
+    margin-left: 0;
+    align-self: flex-start;
+
+    .dot {
+      right: -46px;
+    }
+  }
+
+  /* Right item */
+  .timeline-item:nth-child(even) {
+    margin-left: auto;
+    align-self: flex-end;
+
+    .dot {
+      left: -46px;
+    }
+  }
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .timeline {
+    .timeline-line {
+      display: none;
+    }
+
+    .timeline-item {
+      width: 100% !important;
+      .dot {
+        display: none;
+      }
+    }
+  }
+  .timeline-title{
+    font-size: 30px !important;
+  }
+}

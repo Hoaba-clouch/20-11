@@ -1,0 +1,67 @@
+$accent: #e9d8a6;
+$primary: #14213d;
+$card-bg: #ffffff;
+$shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+.story {
+  padding: 100px 20px;
+  background: #faf6ef;
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .story-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+  color: var(--color-text-primary);
+    margin-bottom: 60px;
+  }
+
+  .story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+
+  .story-box {
+   background: var(--color-bg-primary);
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: $shadow;
+    border-left: 6px solid $accent;
+    will-change: transform;
+transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+              box-shadow 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  /* HIỆU ỨNG HOVER */
+  &:hover {
+    /* Nổi lên 5px */
+    transform: translateY(-10px); 
+    /* Tăng độ sâu bóng (tạo hiệu ứng nổi) */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+    /* Có thể làm viền trái accent nổi bật hơn một chút */
+    border-left-color: darken($accent, 10%); 
+  }
+    h3 {
+      font-size: 24px;
+      margin-bottom: 14px;
+     color: var(--color-text-primary) !important;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.6;
+      color: var(--color-text-primary);
+    }
+  }
+}
+
+
+ @media (max-width: 700px) {
+  .story-title {
+    font-size: 30PX !important;
+  }
+  }
