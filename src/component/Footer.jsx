@@ -26,8 +26,13 @@ export default function Footer() {
           <p><strong>Lớp / Khóa:</strong> HCM-K24-CNTT1</p>
           <p><strong>Trường:</strong> Học Viện Công Nghệ Bưu Chính Viễn Thông</p>
         </div>
-        <span>© {new Date().getFullYear()} · Tri ân những người lái đò thầm lặng.</span>
+        <span>© {new Date().getFullYear()} · Tri ân những người lái đò thầm lặng - Rikkei Education - All rights reserved.</span>
         </div>
+        <div className="picqr">
+          <img src="/qr-BQoWXRIO.png" className="qr" alt="" />
+        <img src="/imgfooter-B0-xMp1P.png" className="ftpicture" alt="" />
+        </div>
+        
       </footer>
 
       {/* SVG filter */}

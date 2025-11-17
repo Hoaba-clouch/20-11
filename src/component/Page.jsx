@@ -52,7 +52,7 @@ export default function Page() {
            <section className="hero">
       <div className="hero-content ">
         <h1 className="hero-title">
-          Chào mừng 80 năm <br /> Ngày Nhà giáo Việt Nam <br /> 20/11 🎉
+          Chào mừng 80 năm <br /> Ngày Nhà giáo Việt Nam <br /> 20/11 Cùng RikkeiEducation🎉
         </h1>
 
         <p className="hero-desc">
@@ -66,8 +66,10 @@ export default function Page() {
         </section>
      
       </div>
+     
 
       <div className="image-container">
+       
         <img src={imgSrc} alt="image" />
       </div>
     </div>

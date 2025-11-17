@@ -56,4 +56,10 @@ GSAP
     object-fit: cover;
     object-position: center center;
   }
- 
+ .image{
+  position: absolute;
+  top: 30px;
+  left: 50px;
+z-index: 10;
+width: 140px;
+ }

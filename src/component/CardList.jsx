@@ -36,6 +36,7 @@ const CardList = () => {
   return (
     
    <>
+    <img className="image" src="/logo-rikkei2 2.png" alt="" />
      <h1 className="tieude">Các châm ngôn hay </h1>
     <main className="page-content">
       

@@ -16,19 +16,19 @@ https://codepen.io/amit_sheen/pen/WNweryv*/
 }
 @keyframes preLoad {
   0% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
   }
   10% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
   }
   20% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
   }
   30% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
   }
   40% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
   }
   100% {
     display: none;
@@ -132,19 +132,19 @@ padding-bottom: 20px;
 }
 @keyframes nextPage {
   0% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
   }
   20% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
   }
   40% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
   }
   60% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
   }
   80% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
   }
 }
 
@@ -277,364 +277,364 @@ padding-bottom: 20px;
 
 @keyframes nextFlip1 {
   0% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -178px -2px;
     transform: rotateY(0deg);
   }
   10% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -210px -2px;
     transform: rotateY(180deg);
   }
   20% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -178px -2px;
     transform: rotateY(0deg);
   }
   30% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -210px -2px;
     transform: rotateY(180deg);
   }
   40% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -178px -2px;
     transform: rotateY(0deg);
   }
   50% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -210px -2px;
     transform: rotateY(180deg);
   }
   60% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -178px -2px;
     transform: rotateY(0deg);
   }
   70% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -210px -2px;
     transform: rotateY(180deg);
   }
   80% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -178px -2px;
     transform: rotateY(0deg);
   }
   90% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -210px -2px;
     transform: rotateY(180deg);
   }
 }
 @keyframes nextFlip2 {
   0% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -148px -2px;
     transform: rotateY(0deg);
   }
   10.5% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -238px -2px;
     transform: rotateY(180deg);
   }
   20% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -148px -2px;
     transform: rotateY(0deg);
   }
   30.5% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -238px -2px;
     transform: rotateY(180deg);
   }
   40% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -148px -2px;
     transform: rotateY(0deg);
   }
   50.5% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -238px -2px;
     transform: rotateY(180deg);
   }
   60% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -148px -2px;
     transform: rotateY(0deg);
   }
   70.5% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -238px -2px;
     transform: rotateY(180deg);
   }
   80% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -148px -2px;
     transform: rotateY(0deg);
   }
   90.5% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -238px -2px;
     transform: rotateY(180deg);
   }
 }
 @keyframes nextFlip3 {
   0% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -118px -2px;
     transform: rotateY(0deg);
   }
   11% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -268px -2px;
     transform: rotateY(180deg);
   }
   20% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -118px -2px;
     transform: rotateY(0deg);
   }
   31% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -268px -2px;
     transform: rotateY(180deg);
   }
   40% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -118px -2px;
     transform: rotateY(0deg);
   }
   51% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -268px -2px;
     transform: rotateY(180deg);
   }
   60% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -118px -2px;
     transform: rotateY(0deg);
   }
   71% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -268px -2px;
     transform: rotateY(180deg);
   }
   80% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -118px -2px;
     transform: rotateY(0deg);
   }
   91% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -268px -2px;
     transform: rotateY(180deg);
   }
 }
 @keyframes nextFlip4 {
   0% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -88px -2px;
     transform: rotateY(0deg);
   }
   11.5% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -298px -2px;
     transform: rotateY(180deg);
   }
   20% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -88px -2px;
     transform: rotateY(0deg);
   }
   31.5% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -298px -2px;
     transform: rotateY(180deg);
   }
   40% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -88px -2px;
     transform: rotateY(0deg);
   }
   51.5% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -298px -2px;
     transform: rotateY(180deg);
   }
   60% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -88px -2px;
     transform: rotateY(0deg);
   }
   71.5% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -298px -2px;
     transform: rotateY(180deg);
   }
   80% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -88px -2px;
     transform: rotateY(0deg);
   }
   91.5% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -298px -2px;
     transform: rotateY(180deg);
   }
 }
 @keyframes nextFlip5 {
   0% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -58px -2px;
     transform: rotateY(0deg);
   }
   12% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -328px -2px;
     transform: rotateY(180deg);
   }
   20% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -58px -2px;
     transform: rotateY(0deg);
   }
   32% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -328px -2px;
     transform: rotateY(180deg);
   }
   40% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -58px -2px;
     transform: rotateY(0deg);
   }
   52% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -328px -2px;
     transform: rotateY(180deg);
   }
   60% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -58px -2px;
     transform: rotateY(0deg);
   }
   72% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -328px -2px;
     transform: rotateY(180deg);
   }
   80% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -58px -2px;
     transform: rotateY(0deg);
   }
   92% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -328px -2px;
     transform: rotateY(180deg);
   }
 }
 @keyframes nextFlip6 {
   0% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -28px -2px;
     transform: rotateY(0deg);
   }
   12.5% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -358px -2px;
     transform: rotateY(180deg);
   }
   20% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -28px -2px;
     transform: rotateY(0deg);
   }
   32.5% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -358px -2px;
     transform: rotateY(180deg);
   }
   40% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -28px -2px;
     transform: rotateY(0deg);
   }
   52.5% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -358px -2px;
     transform: rotateY(180deg);
   }
   60% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -28px -2px;
     transform: rotateY(0deg);
   }
   72.5% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -358px -2px;
     transform: rotateY(180deg);
   }
   80% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -28px -2px;
     transform: rotateY(0deg);
   }
   92.5% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -358px -2px;
     transform: rotateY(180deg);
   }
 }
 @keyframes nextFlip7 {
   0% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -2px -2px;
     transform: rotateY(0deg);
   }
   13% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -388px -2px;
     transform: rotateY(180deg);
   }
   20% {
-    background-image: url("../assets/images/hinh-anh-thay-giao-co-giao-de-lam-bao-tuong-1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/548194595_1374520490967237_2419097602992405833_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=91-5tg3URwIQ7kNvwGlvrSQ&_nc_oc=AdkQprASa-st5_im0vj75Cd7VJT4RxeLegz6pSq9rBwC15ls6s2qmN_ndQPda9E5EsM&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=pfGUwMp3aYx8nohf0Mg3kg&oh=00_Afi-LVzamg5Fhpuw_wjdfU9gsCwm6sq0svzlgRVNe1np9Q&oe=69211A8D");
     background-position: -2px -2px;
     transform: rotateY(0deg);
   }
   33% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -388px -2px;
     transform: rotateY(180deg);
   }
   40% {
-    background-image: url("../assets/images/image.png");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/547260801_776952088634860_2106045641028045759_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=E8oPyvAvCfUQ7kNvwHqDIUg&_nc_oc=AdlvHDI11lyOVBipl5C9Y-Ka3s9GcGjIeaGKplI70MZI_GRQNQ3izdL5m1fKGYkVCfo&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=avO7AAqkFR7r26QILuIGDQ&oh=00_Afi4vIo1dqSil91hohgmB6_3ZwJt0d3ibOEInwMqWuUpmw&oe=692127FC");
     background-position: -2px -2px;
     transform: rotateY(0deg);
   }
   53% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -388px -2px;
     transform: rotateY(180deg);
   }
   60% {
-    background-image: url("../assets/images/tải\ xuống.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546825476_1478907570199319_3634174605660747555_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=H9I3x2fRXJYQ7kNvwGSlE3w&_nc_oc=Adma_n2AOd_CPEmkTxdI68DxR6wBJc-x0G69HhX8yZDJ33u6U-xDXNL3n-yrYD7WGM4&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=qgGa5Y0svSILYsBCDa3qOg&oh=00_AfhOFN_IVBjmrNXwhHUikSOTKr1NYEgu2j0345cjLcokJA&oe=69211F3F");
     background-position: -2px -2px;
     transform: rotateY(0deg);
   }
   73% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -388px -2px;
     transform: rotateY(180deg);
   }
   80% {
-    background-image: url("../assets/images/2_1.jpg");
+    background-image: url("https://scontent.fsgn8-3.fna.fbcdn.net/v/t39.30808-6/546633695_1086224027060358_5324752963009999081_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=NW76KwTPK-kQ7kNvwFO0A1Y&_nc_oc=AdnTIRWa80ZliWToKV_5M52STDyJpR1ssXdf-KMM2h21kNMk-0Q-tBHJf8V4WHC8VaY&_nc_zt=23&_nc_ht=scontent.fsgn8-3.fna&_nc_gid=PQ7vZ8x-gZCrZudu_b7o8w&oh=00_Afh7jSyFFHzxhb_XWwU-ZlZHPE-7gZSANPJLVjpV6IG-XQ&oe=692125CD");
     background-position: -2px -2px;
     transform: rotateY(0deg);
   }
   93% {
-    background-image: url("../assets/images/am-ap-tinh-thay-tro-qua-nhung-buc-anh-xua-va-nay.webp");
+    background-image: url("https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/546622911_1478907580199318_4206799726980364196_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=tDjdSfrJu88Q7kNvwFDg3u1&_nc_oc=AdnA6LyqHuL7dGEo49PgHQ25p9vvBl05ari8nNct03ADTJS8tZwN0R9xGMvo_dW-DZg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=gqs3uf0yWWzgNzxMjLns5w&oh=00_AfiMLOOSjTcnbBbrlH8B4bi3fdzR40hknIuZ3AvQrQHTGA&oe=69212B3F");
     background-position: -388px -2px;
     transform: rotateY(180deg);
   }

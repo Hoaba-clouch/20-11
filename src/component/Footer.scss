@@ -151,3 +151,29 @@ footer .ball {
     height: 0px;
   }
 }
+.qr{
+   width: auto;
+    max-width: 35%;
+    height: 100%;
+    object-fit: contain;
+   
+   
+}
+   .picqr{
+        width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    height: 310px;
+    z-index: 3;
+    padding-top: 250px;
+    
+   }
+   .ftpicture{
+        max-width: 72%;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    height: max-content;
+    max-height: 150px;
+   }

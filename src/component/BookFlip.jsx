@@ -7,7 +7,7 @@ export default function BookFlip() {
 
       <div className="containerr">
         <h1 className="title">
-          Nhũng trang ảnh đẹp <br /> trong giảng dạy xưa và nay
+          Nhũng trang ảnh đẹp <br /> trong giảng dạy và hoạt động sự kiện
         </h1>
 
         <div className="credit">

@@ -4,12 +4,12 @@ import ImageModal from './ImageModal';
 import SliderModal from './SliderModal';
 import ShinyButton from "./ShinyButton";
 const yourImages = [
-    { id: 1, url: "https://cdn.giaoducthoidai.vn/images/e401c228975606591bf047dfabd6358420d2bc5884d3dcdcfe1eb68d485aa1759299de8edcc4199bf5e576e408af6105bc63b4cc55323ef70a33248940d3c8c9/anh-minh-hoa.jpg", alt: "Mô tả ảnh " },
-    { id: 2, url: "https://cdn.giaoducthoidai.vn/images/e401c228975606591bf047dfabd6358420d2bc5884d3dcdcfe1eb68d485aa175e90451d86376977e78d4fa322b971902/img0083-4.jpg", alt: "Mô tả ảnh 2" },
-    { id: 2, url: "https://cdn-i.doisongphapluat.com.vn/resize/th/upload/2024/11/13/chi-phi-cho-van-nghe-20-11-ton-kem-lieu-co-can-thiet-va-dung-voi-tinh-than-tri-an-thay-co-dspl-2-15230409.jpg", alt: "Mô tả ảnh 2" },
-    { id: 2, url: "https://haycafe.vn/wp-content/uploads/2021/12/Hinh-anh-thay-giao-va-hoc-sinh-tieu-hoc-800x585.jpg", alt: "Mô tả ảnh 2" },
-    { id: 2, url: "https://haycafe.vn/wp-content/uploads/2021/12/Hinh-anh-co-giao-va-hoc-sinh-tieu-hoc-800x533.jpg", alt: "Mô tả ảnh 2" },
-    { id: 2, url: "https://haycafe.vn/wp-content/uploads/2021/12/Hinh-anh-co-giao-va-hoc-sinh-mam-non-800x533.jpg", alt: "Mô tả ảnh 2" },
+    { id: 1, url: "/z7234459973074_16d7fd52cf952fb113e77b2d13384239.jpg", alt: "Mô tả ảnh " },
+    { id: 2, url: "/z7234459960175_1e407925a1be580bb044989508371ca3.jpg", alt: "Mô tả ảnh 2" },
+    { id: 2, url: "/z7234459944624_feb633948c4d88fe8d059d1f0430988b.jpg", alt: "Mô tả ảnh 2" },
+    { id: 2, url: "/z7234459956621_23ebfdaded05a72e498424211a0b576a.jpg", alt: "Mô tả ảnh 2" },
+    { id: 2, url: "https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/555447922_1317582860156350_4326069764713786237_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=HwNSdkBZGkMQ7kNvwEyCW60&_nc_oc=AdkxFdKUSnnE71EZ4befV8m6DaIBKItOP9zqU6hKtW0-RIxodVSzfA62Xwraf-n9tcY&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=KZJo2EJOO_SS1ZW2tryKEg&oh=00_AfhwDdZBXJJZyeNj7fOye_sAi7duX3k9O13OsdocyrL0DQ&oe=69211B30", alt: "Mô tả ảnh 2" },
+    { id: 2, url: "https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/554811480_122223506396257809_2464616965003949609_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=SunNmcMokZkQ7kNvwEOwfhF&_nc_oc=AdnDF4v0G7bpid8pa_GwPKCY3zAY4Vkpe1_inTD2duGesinhzJHEm7wxkjD1kKhnV3o&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=U9hpmbDCze_h4TCA-UGbuQ&oh=00_AfiO2jzRzmLTek-CXxgrHDKtKMR_ymSIA6R7A7R6lpjxBA&oe=69210F0E", alt: "Mô tả ảnh 2" },
   
     
 ];
@@ -23,23 +23,23 @@ const [isSliderOpen, setIsSliderOpen] = useState(false);
         <div className="gallery-grid">
 
           <div className="gallery-item">
-            <img src="https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/482955fpJ/anh-mo-ta.png" alt="Teacher" />
+            <img src="/z7234459984140_8f66796437e0ddd3047c58b2c63e6e1a.jpg" alt="Teacher" />
           </div>
 
           <div className="gallery-item">
-            <img src="https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/482955tZb/anh-mo-ta.png" alt="Coding" />
+            <img src="/z7234459973074_16d7fd52cf952fb113e77b2d13384239.jpg" alt="Coding" />
           </div>
 
           <div className="gallery-item">
-            <img src="https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/482955GpJ/anh-mo-ta.png" alt="Books" />
+            <img src="/z7234459972102_a361e74d14a15e14e8b92a0182ac6dd0.jpg" alt="Books" />
           </div>
 
           <div className="gallery-item">
-            <img src="https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/482955ZYc/anh-mo-ta.png" alt="Students" />
+            <img src="/z7234459936991_6b1e3cf3fb648b02e705bfdd598af2d9.jpg" alt="Students" />
           </div>
 
           <div className="gallery-item wide">
-            <img src="https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/482955ped/anh-mo-ta.png" alt="Future" />
+            <img src="/z7234459917220_9cf8c2d47810533b9d99f194af9da41e.jpg" alt="Future" />
           </div>
 
         </div>
