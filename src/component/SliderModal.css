@@ -178,7 +178,7 @@
     filter: opacity(1);
 }
 
-@container (max-width: 660px) {
+@container (max-width: 700px) {
     .nav-button:not(:has(img)) {
         background-color: rgb(241, 235, 232);
     }
@@ -203,4 +203,13 @@
         background-color: black;
         scale: 1.5;
     }
+   
 }
+ @media (max-width: 768px){
+     .slider-modal-backdrop {
+        display: flex;
+    justify-self: start;
+    padding-right: 60px !important;
+    
+    }
+ }

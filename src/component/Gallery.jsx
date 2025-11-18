@@ -41,7 +41,9 @@ const [isSliderOpen, setIsSliderOpen] = useState(false);
           <div className="gallery-item wide">
             <img src="/z7234459917220_9cf8c2d47810533b9d99f194af9da41e.jpg" alt="Future" />
           </div>
-
+  <div className="gallery-item wide">
+            <img src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t39.30808-6/553114478_2208220556312789_5385543777638781283_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=hGKQKXLC_NcQ7kNvwEMJWzU&_nc_oc=AdmFBZgrrnpmqfUL2tlOcmjhtriR7rAHUXlFsFqtqXo5PbGLxLokEX30NVbAm0LQbdg&_nc_zt=23&_nc_ht=scontent.fsgn8-4.fna&_nc_gid=TgwK51qiOKFSC_uTJRD3vA&oh=00_AfjY_qGp9g1xrEnhFpC09dXAKgmtIGJm_OvGxGz0EZtdMA&oe=692189BF" alt="Future" />
+          </div>
         </div>
       </div>
       <ShinyButton 

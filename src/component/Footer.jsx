@@ -17,7 +17,10 @@ export default function Footer() {
             <div className="footer-main">
           <p className="footer-title"><strong> Người Lái Đò Thế Hệ Số</strong></p>
           <p className="footer-sub">
-            Dự án landing page tri ân thầy cô nhân kỷ niệm 80 năm    <br />   Ngày Nhà giáo Việt Nam 20/11.
+            Dự án landing page tri ân thầy cô nhân kỷ niệm 80 năm    <br />   Ngày Nhà giáo Việt Nam 20/11. <br />
+            <p  className="desc"> <strong> Website </strong> <u>
+https://rikkei.edu.vn</u>
+</p>
           </p>
         </div>
 
@@ -25,16 +28,23 @@ export default function Footer() {
           <p><strong> Thực hiện:</strong> Nguyễn Bá Hoà </p>
           <p><strong>Lớp / Khóa:</strong> HCM-K24-CNTT1</p>
           <p><strong>Trường:</strong> Học Viện Công Nghệ Bưu Chính Viễn Thông</p>
+          
         </div>
-        <span>© {new Date().getFullYear()} · Tri ân những người lái đò thầm lặng - Rikkei Education - All rights reserved.</span>
+       
+       
         </div>
-        <div className="picqr">
+      
+      </footer>
+       <div className="picqr">
           <img src="/qr-BQoWXRIO.png" className="qr" alt="" />
         <img src="/imgfooter-B0-xMp1P.png" className="ftpicture" alt="" />
-        </div>
         
-      </footer>
-
+        </div>
+         
+  <div className="chacuano">
+   <span>© {new Date().getFullYear()} · Tri ân những người lái đò thầm lặng  - Rikkei Education - All rights reserved.</span>
+  </div>
+         
       {/* SVG filter */}
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
         <defs>
