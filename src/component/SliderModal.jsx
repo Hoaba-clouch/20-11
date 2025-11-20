@@ -154,7 +154,7 @@ export default function SliderModal({ isOpen, onClose, images = DUMMY_IMAGES }) 
                     </section>
                     
                     {/* Navigation Thumbnails */}
-                    <nav className="slider-navigation">
+                    <div className="slider-navigation">
                         {images.map((image, index) => (
                             <button 
                                 key={image.id || index}
@@ -165,7 +165,7 @@ export default function SliderModal({ isOpen, onClose, images = DUMMY_IMAGES }) 
                                 <img className="thumbnail" src={image.url} alt={image.alt} />
                             </button>
                         ))}
-                    </nav>
+                    </div>
                 </div>
             </div>
         </div>

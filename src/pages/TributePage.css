@@ -1,0 +1,194 @@
+/* TRIBUTE FORM STYLING (Nếu cần) */
+.tribute-form input, .tribute-form select, .tribute-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* STYLING CHO BỘ LỌC */
+.filter-buttons {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; /* Cho phép xuống dòng trên màn hình nhỏ */
+}
+
+.filter-buttons button {
+    padding: 8px 15px;
+    border: 1px solid #e76f51;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #e76f51;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    font-size: 14px;
+}
+
+.filter-buttons button:hover {
+    background-color: #e9d8a6;
+}
+
+.filter-buttons .active-filter-button {
+    background-color: #e76f51;
+    color: #e9d8a6;
+    font-weight: bold;
+    border-color: #e76f51;
+}
+
+/* STYLING CHO LỜI TRI ÂN (CARD) */
+.tributes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.tribute-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+
+.tribute-card h4 {
+    color: #cc0000; /* Màu đỏ truyền thống */
+    margin-top: 0;
+}
+.butonn{
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  }
+  /* src/pages/TributePage.css */
+
+/* Container chứa Form */
+.tribute-container {
+   
+    
+    padding: 30px;
+    border-radius: 15px;
+    /* Hiệu ứng Glassmorphism nhẹ */
+   background: var(--color-bg-secondary);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: var(--text-lighter); /* Đảm bảo chữ trắng/sáng */
+}
+
+.tribute-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f7b243; /* Màu tiêu đề nổi bật */
+    font-size: 2.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+h3{
+    color: var(--color-text-primary);
+}
+.tribute-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Khoảng cách giữa các trường */
+}
+/* Style cho Input, Textarea và Select */
+.tribute-form input[type="text"],
+.tribute-form select,
+.tribute-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.05); /* Nền trong suốt nhẹ */
+      color: var(--color-text-primary);/* Chữ nhập vào màu sáng */
+    font-size: 1rem;
+    /* Hiệu ứng chuyển đổi mượt mà */
+    transition: all 0.3s ease;
+}
+
+/* Placeholder màu xám nhẹ */
+.tribute-form input::placeholder,
+.tribute-form textarea::placeholder {
+   color: var(--color-text-primary);;
+}
+
+/* Hiệu ứng FOCUS (khi click vào) */
+.tribute-form input[type="text"]:focus,
+.tribute-form select:focus,
+.tribute-form textarea:focus {
+    outline: none; /* Xóa viền focus mặc định */
+    border-color: #f7b243; /* Viền màu vàng cam nổi bật */
+    box-shadow: 0 0 0 3px rgba(247, 178, 67, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Textarea - Đảm bảo cuộn được và kích thước dễ nhìn */
+.tribute-form textarea {
+    resize: vertical; /* Chỉ cho phép kéo dãn theo chiều dọc */
+    min-height: 120px;
+}
+
+/* Style riêng cho Select (đảm bảo option cũng có màu nền tối) */
+.tribute-form select option {
+    background-color: var(--background-dark); /* Sử dụng màu nền tối cho các option */
+    color: var(--text-lighter);
+}
+/* src/pages/TributePage.css */
+
+/* Style cho Thanh Tìm kiếm */
+.search-input {
+    width: 100%;
+    padding: 15px 33px;
+    margin-bottom: 25px; /* Khoảng cách với các bộ lọc bên dưới */
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1); /* Nền mờ nhẹ */
+    color: var(--text-lighter);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+.h2{
+    color: var(--color-accent-main)!important;
+ 
+}
+.search-input::placeholder {
+       color: var(--color-text-secondary);
+      
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #e76f51; /* Màu nổi bật khi focus */
+    box-shadow: 0 0 0 3px rgba(231, 111, 81, 0.4);
+  background: var(--color-bg-secondary); 
+}
+/* src/pages/TributePage.css */
+
+.search-icon {
+    position: absolute;
+    left: 10px; 
+    top: 48%;
+    transform: translateY(-50%);
+  color: var(--color-text-secondary);
+    
+    /* Font Awesome thường có kích thước lớn hơn React Icons, 
+       huynh có thể điều chỉnh lại font-size nếu cần */
+    font-size: 1.1rem; 
+    
+    z-index: 10;
+    pointer-events: none; 
+    transition: color 0.3s ease;
+}
+
+/* Đảm bảo hiệu ứng focus vẫn hoạt động */
+.search-input:focus + .search-icon, 
+.search-input:focus ~ .search-icon {
+    color: #e76f51; 
+}
+.search-bar{
+    position: relative;
+}

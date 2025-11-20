@@ -1,0 +1,150 @@
+/* src/pages/HistoryPage.css */
+
+/* 1. Base Container & Title */
+.history-page-container {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+     color: var(--color-text-secondary);
+    min-height: 100vh;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+   color: var(--color-accent-main);/* Màu nổi bật, có thể dùng màu cam #e76f51 */
+    font-weight: 700;
+}
+
+/* 2. Timeline Core - Đường kẻ dọc ở giữa */
+.timeline {
+    position: relative;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px; /* Độ dày đường kẻ */
+    background: var(--color-accent-main);
+    top: 200px;
+    bottom: 0;
+    left: 50%; /* Căn giữa màn hình */
+    margin-left: -2px;
+    z-index: 1;
+    height: 50%;
+}
+
+/* 3. Timeline Item Layout */
+.timeline-item {
+    padding: 10px 0;
+    position: relative;
+    width: 50%;
+    z-index: 2;
+}
+
+/* 4. Chấm tròn mốc thời gian */
+.timeline-dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #e76f51; /* Màu nổi bật */
+    border-radius: 50%;
+    border: 3px solid var(--background-dark, #2d3548); 
+    top: 25px; 
+    z-index: 3;
+    box-shadow: 0 0 10px rgba(231, 111, 81, 0.5); 
+}
+
+/* 5. Thiết kế Card Nội dung (Frosted Glass) */
+.timeline-content-wrapper {
+    padding: 10px 20px;
+}
+
+.timeline-card {
+  background: var(--color-bg-secondary);/* Frosted Glass nhẹ */
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    min-height: 150px;
+}
+
+.timeline-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-card .year {
+    font-size: 1.2rem;
+    font-weight: 700;
+   color: var(--color-text-secondary);
+    margin-bottom: 5px;
+}
+
+.timeline-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+/* 6. Căn chỉnh vị trí Trái/Phải */
+
+/* Item nằm bên TRÁI */
+.timeline-item.left {
+    left: 0;
+    padding-right: 60px; /* Khoảng cách từ Card đến đường kẻ */
+    text-align: right; /* Căn chỉnh text về bên phải */
+}
+
+.timeline-item.left .timeline-dot {
+    right: -10px; /* Đặt chấm tròn sát đường kẻ giữa (50%) */
+    left: auto;
+}
+
+/* Item nằm bên PHẢI */
+.timeline-item.right {
+    left: 50%;
+    padding-left: 60px; /* Khoảng cách từ Card đến đường kẻ */
+    text-align: left; /* Căn chỉnh text về bên trái */
+}
+
+.timeline-item.right .timeline-dot {
+    left: -10px; /* Đặt chấm tròn sát đường kẻ giữa (50%) */
+    right: auto;
+}
+
+/* 7. Responsive (Màn hình nhỏ, chỉ hiển thị một cột) */
+@media screen and (max-width: 768px) {
+    /* Xóa đường kẻ dọc và căn chỉnh tất cả về bên trái */
+    .timeline::after {
+        left: 20px; /* Dịch đường kẻ sang trái */
+    }
+
+    .timeline-item {
+        width: 100%;
+        left: 0; 
+        padding-left: 50px; /* Tạo khoảng cách cho dot */
+        padding-right: 15px;
+        text-align: left !important; /* Căn chỉnh tất cả về trái */
+    }
+
+    .timeline-item.right {
+        padding-left: 50px;
+    }
+    
+    /* Đặt chấm tròn sát đường kẻ mới */
+    .timeline-dot {
+        left: 10px !important; 
+        right: auto !important;
+    }
+    
+    .timeline-item.left .timeline-content-wrapper,
+    .timeline-item.right .timeline-content-wrapper {
+         /* Tăng cường khoảng cách nếu cần */
+    }
+}

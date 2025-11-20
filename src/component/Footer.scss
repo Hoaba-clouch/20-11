@@ -36,6 +36,7 @@ footer {
 .desc{
   margin-top: 10px;
   font-size: 18px;
+  margin-left: 10px;
 }
 .flex{
   width: 100%;
@@ -93,6 +94,9 @@ footer::after {
     height: 160px;
     
   }
+  .chacuano{
+  font-size: 12px !important;
+}
   .footer-sub{
   margin-left: 5px;
   font-size: 10px;
@@ -120,7 +124,7 @@ footer{
   width: 32% !important;
 }
 .picqr{
-  height: 150px !important;
+  height: 110px !important;
 }
 }
 footer .ball {

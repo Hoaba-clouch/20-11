@@ -16,12 +16,12 @@ export default function Footer() {
         <div className="flex">
             <div className="footer-main">
           <p className="footer-title"><strong> Người Lái Đò Thế Hệ Số</strong></p>
-          <p className="footer-sub">
-            Dự án landing page tri ân thầy cô nhân kỷ niệm 80 năm    <br />   Ngày Nhà giáo Việt Nam 20/11. <br />
+          <div className="footer-sub">
+            Dự án landing page tri ân thầy cô nhân kỷ niệm 80 năm    <br />   Ngày Nhà giáo Việt Nam 20/11. <br /></div>
             <p  className="desc"> <strong> Website </strong> <u>
 https://rikkei.edu.vn</u>
 </p>
-          </p>
+          
         </div>
 
         <div className="footer-info">

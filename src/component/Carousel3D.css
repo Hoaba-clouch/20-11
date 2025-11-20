@@ -1,0 +1,318 @@
+/* author: https://codepen.io/paulnoble/pen/yVyQxv
+Paul Noble */
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.js-transitions-disabled * {
+  transition: none !important;
+}
+.carousel {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  perspective: 50vw;
+  perspective-origin: 50% 50%;
+  border-radius: 90px;
+}
+
+.carousel__control {
+  position: absolute;
+  height: 160px;
+  width: 40px;
+  background: #fff;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+}
+.carousel__control a {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 75%;
+  box-sizing: border-box;
+}
+.carousel__control a:hover:before {
+  background-color: rgba(0,0,0,0.4);
+}
+.carousel__control a.active:before,
+.carousel__control a.active:hover:before {
+  background-color: rgba(0,0,0,0.6);
+}
+.carousel__control a:first-child {
+  margin-top: 15px;
+}
+.carousel__control a:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  padding-top: 25%;
+  width: 25%;
+  background: rgba(0,0,0,0.2);
+  content: '';
+  display: block;
+  margin-top: -12.5%;
+}
+.carousel__stage {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  margin: auto;
+  transform-style: preserve-3d;
+  transform: translateZ(calc(-50vh + 20px));
+}
+.spinner {
+  position: absolute;
+  width: calc(50vw - (20px));
+  height: calc(100vh - 40px);
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  margin: auto;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  backface-visibility: hidden;
+  transform-origin: 50% 50%;
+  transform: rotateX(0);
+}
+.js-spin-fwd .spinner {
+  transform: rotateX(-90deg);
+}
+.js-spin-bwd .spinner {
+  transform: rotateX(90deg);
+}
+.js-spin-fwd .spinner--right {
+  transform: rotateX(90deg);
+}
+.js-spin-bwd .spinner--right {
+  transform: rotateX(-90deg);
+}
+.spinner--right {
+  right: 0;
+  left: auto;
+}
+.spinner__face {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.spinner__face.js-next {
+  display: block;
+  transform: rotateX(90deg) translateZ(calc(50vh - 20px));
+}
+.spinner--right .spinner__face.js-next {
+  transform: rotateX(270deg) translateZ(calc(50vh - 20px));
+}
+.js-spin-bwd .spinner__face.js-next {
+  transform: rotateX(-90deg) translateZ(calc(50vh - 20px));
+}
+.js-spin-bwd .spinner--right .spinner__face.js-next {
+  transform: rotateX(-270deg) translateZ(calc(50vh - 20px));
+}
+.js-active {
+  display: block;
+  transform: translateZ(calc(50vh - 20px));
+}
+.contenttt {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  left: 0;
+}
+.spinner--right .contenttt {
+  left: -100%;
+}
+.content__left,
+.content__right {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+}
+.content__right {
+  right: 0;
+  left: auto;
+}
+.content__left {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content__left:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.1);
+}
+.content__left h1 {
+  position: absolute;
+  top: 50%;
+  margin-top: -3vw;
+  text-align: center;
+  font-family: oswald;
+  font-size: 5vw;
+  height: 10vw;
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  letter-spacing: 0.15em;
+  line-height: 0.6;
+}
+.content__left span {
+  font-size: 1vw;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  opacity: 0.9;
+  font-family: Merriweather;
+}
+.content__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content__right .content__main {
+  position: absolute;
+  font-family: Merriweather, serif;
+  text-align: left;
+  color: #fff;
+  font-size: 1.3vw;
+  padding: 0 8vw;
+  line-height: 1.65;
+  font-weight: 300;
+  margin: 0;
+  opacity: 0.8;
+}
+.content__right .content__main p:last-child {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.85em;
+}
+.content__right .content__index {
+  font-size: 30vh;
+  position: absolute;
+  right: -1vh;
+  top: 35vh;
+  opacity: 0.3;
+  font-family: oswald;
+  color: #fff;
+}
+[data-type="phongkien"] .content__left {
+  background-image: url("http://www.thnt.vn/images/102010/ThangLong_HaNoi/vanmieu_2.jpg");
+}
+.spinner--right [data-type="phongkien"] .content__left {
+  background-image: none;
+}
+[data-type="thuocdia"] .content__left {
+  background-image: url("https://i1-vnexpress.vnecdn.net/2025/03/21/dk2-1742559695-7195-1742560332.jpg?w=680&h=0&q=100&dpr=2&fit=crop&s=HLEMsOZU2JzJZXymf7ipCA");
+}
+.spinner--right [data-type="thuocdia"] .content__left {
+  background-image: none;
+}
+[data-type="khangchien"] .content__left {
+  background-image: url("https://edumedia.dalat.vn//Images/LDG/khoa.sgd/CHUVANAN/1_1_638297576502028475.jpg");
+}
+.spinner--right [data-type="khangchien"] .content__left {
+  background-image: none;
+}
+[data-type="hoinhap"] .content__left {
+  background-image: url("https://mentori.vn/assets/images/companies/rikkei/wk2.jpeg");
+}
+.spinner--right [data-type="hoinhap"] .content__left {
+  background-image: none;
+}
+/* Carousel3D.css */
+
+/* Thiết lập cho các mặt xoay */
+.spinner__face {
+    position: absolute; /* Đảm bảo các mặt xoay xếp chồng lên nhau */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* ✅ THÊM 3 THUỘC TÍNH QUAN TRỌNG NÀY */
+    opacity: 0; /* Trạng thái mặc định: Ẩn */
+    visibility: hidden; /* Ẩn khỏi cây DOM để tránh lỗi */
+    
+    /* Thiết lập thời gian chuyển đổi (0.6s) */
+    transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out; 
+    
+    /* Ngăn người dùng tương tác với slide ẩn */
+    pointer-events: none; 
+}
+
+/* Chỉ hiện thị slide đang active */
+.spinner__face.js-active {
+    opacity: 1; /* Hiện ra */
+    visibility: visible; /* Cho phép hiển thị */
+    pointer-events: auto; /* Cho phép tương tác */
+}
+
+/* Gỡ bỏ các thuộc tính 3D cũ (Quan trọng để tránh lỗi nhảy) */
+/* Carousel3D.css */
+
+.spinner__face {
+    position: absolute; /* Xếp chồng lên nhau */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* ✅ THIẾT LẬP FADE TRANSITION */
+    opacity: 0 !important; /* Trạng thái mặc định: Ẩn */
+    visibility: hidden; /* Ẩn khỏi cây DOM */
+    transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out !important; 
+    pointer-events: none; /* Không thể click khi ẩn */
+    
+    /* Huynh cần đảm bảo không có display: none ở đây */
+    /* display: block; */ /* Giữ block (hoặc không định nghĩa) để CSS khác hoạt động */
+}
+
+.spinner__face.js-active {
+    /* Trạng thái Active: Hiện */
+    opacity: 1 !important; 
+    visibility: visible !important; 
+    pointer-events: auto !important;
+}
+ @media (max-width: 700px) {
+ .carousel {
+   
+    height: 37vh;
+     
+    border-radius: 45px;
+}
+.carousel__control {
+ 
+    height: 108px;
+    width: 27px;
+}
+.page-title {
+    
+    font-size: 1.6rem;
+}
+.content__right .content__main {
+   
+    font-size: 1.8vw;
+    padding: 0px 4vw;
+}
+.content__right .content__index {
+    font-size: 17vh;
+}
+ }

@@ -1,24 +1,28 @@
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ScrollReveal from "scrollreveal";
 import { useEffect,useState } from "react";
 import BackToTop from './component/BackToTop'
 import Footer from './component/Footer'
-import Gallery from './component/Gallery'
-import Hero from './component/Hero'
-import StorySection from './component/StorySection'
-import TimelineSection from './component/TimelineSection'
-import Tribute from './component/Tribute'
+
+import Loading from './component/loading';
+
+
 import './index.css'
 import Lenis from "@studio-freight/lenis";
-import BookFlip from "./component/BookFlip";
-import Page from "./component/Page";
+
+import HomePage from "./pages/HomePage";
+import TributePage from "./pages/TributePage";
+import HistoryPage from "./pages/HistoryPage";
+
+import Page from './component/Page';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
-import CardList from "./component/CardList";
+const LOADING_DURATION = 3000;
+import FrostedGlassGooeyNav from "./component/FrostedGlassGooeyNav";
 
 gsap.registerPlugin(ScrollTrigger);
 function App() {
- 
+ const [isLoading, setIsLoading] = useState(true);
 const [theme, setTheme] = useState('light'); 
 
   const toggleTheme = () => {
@@ -26,8 +30,21 @@ const [theme, setTheme] = useState('light');
     setTheme(currentTheme => (currentTheme === 'light' ? 'dark' : 'light'));
   };
 
+useEffect(() => {
+    // 1. Giả lập việc tải dữ liệu hoặc các tác vụ khởi tạo
+    const timer = setTimeout(() => {
+      setIsLoading(false); // 2. Tắt Loading sau khi hết thời gian
+    }, LOADING_DURATION);
+
+    // 3. Cleanup: Xóa timer nếu component bị unmount
+    return () => clearTimeout(timer);
+    
+  }, []); // [] đảm bảo logic chỉ chạy 1 lần khi component được mount
+
+  // Kiểm tra trạng thái tải
 
   useEffect(() => {
+    
     const lenis = new Lenis({
       duration: 1.2,
       smooth: true,
@@ -108,6 +125,9 @@ return () => {
         ScrollTrigger.getAll().forEach(t => t.kill());
     }
   }, []);
+    if (isLoading) {
+    return <Loading />; // Hiển thị component loading
+  }
   return (
     <>
     <div className={`app-container ${theme}`} id="lenis-root">
@@ -124,18 +144,22 @@ return () => {
       }}>
          {theme === 'light' ? ' 🌑' : '☀️'}
       </button>
+      <BrowserRouter>
       <Page/>
-     
-      <CardList/>
-      <StorySection />
-      <TimelineSection />
-      <Gallery />
-      <BookFlip/> 
-      <Tribute />
+     <FrostedGlassGooeyNav/>
+     <Routes>
+            {/* Trang Chủ */}
+    <Route path="/" element={<HomePage />} />
+            {/* Trang Lời Tri Ân (TributePage có Form và Bộ lọc) */}
+            <Route path="/history" element={<HistoryPage />} />
+            {/* Trang Lịch Sử (HistoryPage) */}
+           <Route path="/tribute" element={<TributePage />} />
+            {/* Thêm trang khác nếu cần */}
+          </Routes>
       <Footer />
-      
+     
       <BackToTop />
-      
+      </BrowserRouter>
        </div>
     </>
    
